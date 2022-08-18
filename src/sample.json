@@ -1,0 +1,264 @@
+ { 
+  "contacts": [
+      {
+        "id": 1,
+        "fname": "Alfred",
+        "lname": "Kelly",
+        "phone": "512-000-1111",
+        "email": "ak@visa.com",
+        "role": "CEO",
+        "company": "Visa",
+        "address": ""
+      },
+      {
+        "id": 2,
+        "fname": "Jamie",
+        "lname": "Dimon",
+        "phone": "512-000-1122",
+        "email": "jd@jpmorgan.com",
+        "role": "CEO",
+        "company": "JPMorgan",
+        "address": ""
+      },
+      {
+        "id": 3,
+        "fname": "Elon",
+        "lname": "Musk",
+        "phone": "512-000-2233",
+        "email": "em@tesla.com",
+        "role": "CEO",
+        "company": "Tesla",
+        "address": ""
+      },
+      {
+        "id": 4,
+        "fname": "Jeff",
+        "lname": "Bezos",
+        "phone": "512-000-1234",
+        "email": "jb@amazon.com",
+        "role": "Ex-CEO",
+        "company": "Amazon",
+        "address": ""
+      },
+      {
+        "id": 5,
+        "fname": "Andy",
+        "lname": "Jassy",
+        "phone": "512-000-5656",
+        "email": "aj@amazon.com",
+        "role": "CEO",
+        "company": "Amazon",
+        "address": ""
+      },
+      {
+        "id": 6,
+        "fname": "Warren",
+        "lname": "Buffet",
+        "phone": "512-111-2211",
+        "email": "wb@berkshire.com",
+        "role": "CEO",
+        "company": "Berkshire",
+        "address": ""
+      },
+      {
+        "id": 7,
+        "fname": "Sundar",
+        "lname": "Pichai",
+        "phone": "512-111-1212",
+        "email": "sp@google.com",
+        "role": "CEO",
+        "company": "Google",
+        "address": ""
+      },
+      {
+        "id": 8,
+        "fname": "Satya",
+        "lname": "Nadella",
+        "phone": "512-111-2212",
+        "email": "sn@microsoft.com",
+        "role": "CEO",
+        "company": "Microsoft",
+        "address": ""
+      },
+      {
+        "id": 9,
+        "fname": "Mark",
+        "lname": "Zuckerberg",
+        "phone": "512-222-3333",
+        "email": "mz@meta.com",
+        "role": "CEO",
+        "company": "Meta",
+        "address": ""
+      },
+      {
+        "id": 10,
+        "fname": "Cassio",
+        "lname": "Jenn",
+        "phone": "512-000-1121",
+        "email": "cj@jenn.com",
+        "role": "VP",
+        "company": "Jenn sol",
+        "address": ""
+      },
+      {
+        "id": 11,
+        "fname": "Dan",
+        "lname": "Abramov",
+        "phone": "512-000-2232",
+        "email": "da@dan.com",
+        "role": "CTO",
+        "company": "Dan Industries",
+        "address": ""
+      },
+      {
+        "id": 12,
+        "fname": "Pete",
+        "lname": "Hunt",
+        "phone": "512-000-1233",
+        "email": "ph@pc.com",
+        "role": "CEO",
+        "company": "Peets Coffee",
+        "address": ""
+      },
+      {
+        "id": 13,
+        "fname": "Paul",
+        "lname": "Shannessy",
+        "phone": "512-111-2214",
+        "email": "ps@jpmorgan.com",
+        "role": "Employee",
+        "company": "JPMorgan",
+        "address": ""
+      },
+      {
+        "id": 14,
+        "fname": "Ryan",
+        "lname": "Florence",
+        "phone": "512-111-1215",
+        "email": "rf@chase.com",
+        "role": "Employee",
+        "company": "Chase",
+        "address": ""
+      },
+      {
+        "id": 15,
+        "fname": "Sebastian",
+        "lname": "Markbage",
+        "phone": "512-111-2216",
+        "email": "sm@chase.com",
+        "role": "CIO",
+        "company": "Chase",
+        "address": ""
+      },
+      {
+        "id": 16,
+        "fname": "John",
+        "lname": "Doe",
+        "phone": "512-222-3337",
+        "email": "jdoe@gmail.com",
+        "role": "CEO",
+        "company": "Jdoe",
+        "address": ""
+      },
+      {
+        "id": 17,
+        "fname": "David",
+        "lname": "Havrda",
+        "phone": "512-225-1245",
+        "email": "dhavrda@visa.com",
+        "role": "Director",
+        "company": "Visa",
+        "address": ""
+      },
+      {
+        "id": 18,
+        "fname": "Krishna",
+        "lname": "Khandavalli",
+        "phone": "248-225-4854",
+        "email": "krishna.t.khandavalli@chase.com",
+        "role": "Employee",
+        "company": "JPMorgan",
+        "address": ""
+      },
+      {
+        "id": 19,
+        "fname": "Ryan",
+        "lname": "Renolds",
+        "phone": "512-000-2212",
+        "email": "rr@gmail.com",
+        "role": "CEO",
+        "company": "Company 1",
+        "address": ""
+      },
+      {
+        "id": 20,
+        "fname": "Jimmy",
+        "lname": "Choo",
+        "phone": "512-000-1223",
+        "email": "jc@gmail.com",
+        "role": "CEO",
+        "company": "Company 2",
+        "address": ""
+      },
+      {
+        "id": 21,
+        "fname": "Chandler",
+        "lname": "Bing",
+        "phone": "512-111-2234",
+        "email": "cb@gmail.com",
+        "role": "CEO",
+        "company": "Company 3",
+        "address": ""
+      },
+      {
+        "id": 22,
+        "fname": "Joey",
+        "lname": "Trib",
+        "phone": "512-111-1245",
+        "email": "jt@gmail.com",
+        "role": "CEO",
+        "company": "Company 4",
+        "address": ""
+      },
+      {
+        "id": 23,
+        "fname": "Ross",
+        "lname": "Geller",
+        "phone": "512-111-2256",
+        "email": "rg@gmail.com",
+        "role": "CEO",
+        "company": "Company 5",
+        "address": ""
+      },
+      {
+        "id": 24,
+        "fname": "Rachel",
+        "lname": "Green",
+        "phone": "512-222-3367",
+        "email": "rgreen@gmail.com",
+        "role": "CEO",
+        "company": "Company 6",
+        "address": ""
+      },
+      {
+        "id": 25,
+        "fname": "Pheobe",
+        "lname": "Buffay",
+        "phone": "248-225-2378",
+        "email": "pb@gmail.com",
+        "role": "CEO",
+        "company": "Company 7",
+        "address": ""
+      }, 
+      {
+        "id": 26,
+        "fname": "Monica",
+        "lname": "Geller",
+        "phone": "248-225-4782",
+        "email": "mg@gmail.com",
+        "role": "CEO",
+        "company": "Company 8",
+        "address": ""
+      }
+  ]
+}    

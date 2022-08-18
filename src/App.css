@@ -1,0 +1,325 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-bottom: 1px solid lightgrey;
+}
+
+.page-title {
+  font-weight: 700;
+  color: gray;
+  line-height: 70px;
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.header-block {
+  display: inline;
+}
+
+.header-text {
+  position: relative;
+  top: 9px;
+  left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-tiles {
+  cursor: pointer;
+}
+
+.search-box {
+  text-align: center;
+  margin-top: 10px;
+  position: sticky;
+  top: 30px;
+}
+
+.search-box .search-icon{
+  position: relative;
+  left: 30px;
+  bottom: 3px;
+  font-size: 22px;
+}
+
+.search-box > input[type=text]{
+    width: 50%;
+    height: 50px;
+    font-size: 1.9rem;
+    padding-left: 40px;
+}
+
+.add-contact-btn {
+  position: relative;
+  top: -7px;
+  left: 20px;
+}
+
+
+.contact-list-container {
+  margin-top: 18px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact-list-container > div {
+  width: 16.6%;
+}
+
+.contact-tiles {
+  max-height: 320px;
+  border: 2px solid lightgrey;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.contact-tiles:hover {
+  cursor: pointer;
+}
+
+.contact-circle {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 50%;
+  text-align: center;
+  margin: 8px;
+  display: inline-block;
+}
+
+.contact-title {
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0;
+}
+
+.contact-details {
+  display: inline-block;
+  margin-left: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  position: relative;
+  top: 10px;
+  width: 9vw;
+}
+
+.contact-action-dropdown {
+  display: inline-block;
+  position: relative;
+  top: -12px;
+  right: -10px;
+}
+
+.dropdown-ellipsis:hover {
+  transform: scale(1.7);
+}
+
+.dropdown-item-list {
+  position: absolute;
+  right: -12px;
+}
+
+.dropdown-icons {
+  margin-right: 5px;
+}
+
+.contact-initials {
+  color: white;
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.contact-tiles:hover {
+  border: 2px solid #42a5f5;
+}
+
+.contact-name, .contact-role {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-role {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.phone-icon {
+  margin-left: 14px;
+}
+
+.phone-number {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.create-contact-form {
+  margin: 25px;
+}
+
+.create-contact-text{
+  margin: 25px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.create-contact-form input {
+  width: 35%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: gray;
+  margin-bottom: 20px;
+}
+
+.create-contact-form input:focus {
+  border-color: blue;
+}
+
+.create-contact-form label {
+  font-weight: 600;
+}
+
+.create-btns button {
+  margin: 25px;
+}
+
+@media (min-width: 320px) {
+    .contact-list-container > div {
+      width: 100%;
+    }
+    .search-box > input[type=text] {
+      width: 60%;
+    }
+    .contact-details {
+      width: 78vw;
+    }
+    .create-contact-form input {
+      width: 95%;
+    }
+}
+
+@media (min-width: 480px) {
+    .contact-list-container > div {
+      width: 100%;
+    }
+    .search-box > input[type=text] {
+      width: 60%;
+    }
+    .contact-details {
+      width: 78vw;
+    }
+    .create-contact-form input {
+      width: 90%;
+    }
+}
+
+@media (min-width: 600px) {
+    .contact-list-container > div {
+      width: 50%;
+    }
+    .search-box > input[type=text] {
+      width: 70%;
+    }
+    .contact-details {
+      width: 33vw;
+    }
+    .contact-action-dropdown{
+      right: 2px;
+    }
+    .create-contact-form input {
+      width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-list-container > div {
+      width: 33%;
+    }
+    .search-box > input[type=text] {
+      width: 70%;
+    }
+    .contact-details {
+      width: 20vw;
+    }
+    .contact-action-dropdown{
+      right: -10px;
+    }
+    .create-contact-form input {
+      width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-list-container > div {
+      width: 25%;
+    }
+    .search-box > input[type=text] {
+      width: 60%;
+    }
+    .contact-action-dropdown{
+      right: -2px;
+    }
+    .contact-details {
+      width: 15vw;
+    }
+    .create-contact-form input {
+      width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-list-container > div {
+      width: 16.6%;
+    }
+    .search-box > input[type=text] {
+      width: 50%;
+    }
+    .contact-action-dropdown{
+      right: 1px;
+    }
+    .contact-details {
+      width: 9vw;
+    }
+}
+
+@media (min-width: 1600px) {
+    .contact-action-dropdown{
+      right: 2px;
+    }
+    .contact-details {
+      width: 9vw;
+    }
+}
+
+@media (min-width: 1800px) {
+    .contact-list-container > div {
+      width: 14.2%;
+    }
+    .search-box > input[type=text] {
+      width: 50%;
+    }
+    .contact-action-dropdown{
+      right: 3px;
+    }
+    .contact-details {
+      width: 9vw;
+    }
+    .create-contact-form input {
+      width: 35%;
+    }
+}
+
+
+
+
+
+
